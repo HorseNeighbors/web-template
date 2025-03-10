@@ -12,6 +12,27 @@ const { LatLng, LatLngBounds } = sdkTypes;
 //       1) help customers to find relevant locations, and
 //       2) reduce the cost of using map providers geocoding API
 const defaultLocations = [
+  {
+    id: 'default-ocala',
+    predictionPlace: {
+      address: 'Ocala, FL',
+      bounds: new LatLngBounds(new LatLng(29.233972932318203, -82.06198611864156), new LatLng(29.10653398001878, -82.25188392897039)),
+    },
+  },
+  {
+    id: 'default-wellington',
+    predictionPlace: {
+      address: 'Wellington, FL',
+      bounds: new LatLngBounds(new LatLng(26.684563951350615, -80.17446494705892), new LatLng(26.592529975378255, -80.36379001458734)),
+    },
+  },
+  {
+    id: 'default-lexington',
+    predictionPlace: {
+      address: 'Lexington, KY',
+      bounds: new LatLngBounds(new LatLng(38.21144901347597, -84.28262904383182), new LatLng(37.84526100143012, -84.66013509144118)),
+    },
+  },
   // {
   //   id: 'default-helsinki',
   //   predictionPlace: {
